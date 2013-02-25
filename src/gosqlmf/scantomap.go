@@ -1,5 +1,6 @@
-// @author sigu-399
-// @description A SQL associative map fetcher for Golang
+// @author       sigu-399
+// @description  A SQL associative map fetcher for Golang
+// @created      21-02-2013
 
 package gosqlmf
 
