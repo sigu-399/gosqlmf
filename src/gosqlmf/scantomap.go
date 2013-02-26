@@ -1,5 +1,5 @@
 // @author       sigu-399
-// @description  A SQL associative map fetcher for Golang
+// @description  Fetches results from SQL rows into a map - Go language
 // @created      21-02-2013
 
 package gosqlmf

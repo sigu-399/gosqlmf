@@ -1,4 +1,4 @@
 gosqlmf
 =======
 
-Go SQL Map Fetcher
+Fetches results from SQL rows into a map - Go language
