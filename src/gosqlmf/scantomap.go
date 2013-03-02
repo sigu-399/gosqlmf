@@ -1,6 +1,13 @@
-// @author       sigu-399
-// @description  Fetches results from SQL rows into a map - Go language
-// @created      21-02-2013
+// author  			sigu-399
+// author-github 	https://github.com/sigu-399
+// author-mail		sigu.399@gmail.com
+// 
+// repository-name	gosqlmf
+// repository-desc  Fetches results from SQL rows into a map - Go language
+// 
+// description		Main and only file.
+// 
+// created      	21-02-2013
 
 package gosqlmf
 
