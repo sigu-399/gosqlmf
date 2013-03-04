@@ -1,0 +1,27 @@
+PACKAGE
+
+package gosqlmf
+    import "/Users/mac/Documents/workspace/gosqlmf/src/gosqlmf"
+
+
+FUNCTIONS
+
+func FetchAll(rows *sql.Rows) ([]map[string]interface{}, error)
+    FetchAll
+
+    Fetches all rows into a []map[string]interface{}, each key is the column
+    name
+
+    @return []map[string]interface{} @return error - error or nil if
+    everything is ok
+
+func FetchOne(rows *sql.Rows) (bool, map[string]interface{}, error)
+    FetchOne
+
+    Fetches one row into a map[string]interface{}, each key is the column
+    name
+
+    @return bool - next ( = rows.Next() ) @return map[string]interface{}
+    @return error - error or nil if everything is ok
+
+
