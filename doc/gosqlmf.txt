@@ -1,7 +1,7 @@
 PACKAGE
 
 package gosqlmf
-    import "/Users/mac/Documents/workspace/gosqlmf/src/gosqlmf"
+    import "gosqlmf"
 
 
 FUNCTIONS
