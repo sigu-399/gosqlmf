@@ -9,7 +9,7 @@ Tested YES
 ##Usage
 
 ### Fetching one row
-
+```
   // Classic database connection and query 
 
   database, err := sql.Open(`postgres`, `user=foo dbname=bar password=secret`)
@@ -31,3 +31,4 @@ Tested YES
   if ok { // ok = fetched
     fmt.Printf("%d\n", mapPlayer["score"].(int64) )
   }
+```
