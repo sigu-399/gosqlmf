@@ -9,7 +9,7 @@
 // 
 // created      	21-02-2013
 
-package gosqlmf
+package mf
 
 import (
 	"database/sql"
