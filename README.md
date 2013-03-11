@@ -10,6 +10,10 @@ Tested YES
 
 ### Fetching one row
 ```
+  import(
+  	"database/sql/mf"
+  )
+
   // Classic database connection and query 
 
   database, err := sql.Open(`postgres`, `user=foo dbname=bar password=secret`)
@@ -22,7 +26,7 @@ Tested YES
 
   // Fetch into a map
   
-	ok, mapPlayer, err := gosqlmf.FetchOne(rowPlayer)
+	ok, mapPlayer, err := mf.FetchOne(rowPlayer)
 	if err != nil {
 		panic(err.Error())
 	}
@@ -48,7 +52,7 @@ Tested YES
 
   // Fetch into a map
   
-	mapPlayers, err := gosqlmf.FetchAll(rowPlayer)
+	mapPlayers, err := mf.FetchAll(rowPlayer)
 	if err != nil {
 		panic(err.Error())
 	}
