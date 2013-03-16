@@ -8,6 +8,12 @@ Tested YES
 
 ##Usage
 
+Update :
+
+Alternatively, you may use the wrapper functions QueryOne & QueryAll, making things easier and your code smaller.
+
+( see doc file for more informations on these functions )
+
 ### Fetching one row
 ```
   import(
