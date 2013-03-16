@@ -27,11 +27,11 @@ func FetchOne(rows *sql.Rows) (bool, map[string]interface{}, error)
 func QueryAll(db *sql.DB, sql string) ([]map[string]interface{}, error)
     QueryAll
 
-    Database query function on top on FetchOne
+    Database query function on top of FetchAll
 
 func QueryOne(db *sql.DB, sql string) (bool, map[string]interface{}, error)
     QueryOne
 
-    Database query function on top on FetchOne
+    Database query function on top of FetchOne
 
 
