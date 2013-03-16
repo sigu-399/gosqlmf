@@ -15,6 +15,44 @@ import (
 	"database/sql"
 )
 
+// QueryOne
+//
+// Database query function on top on FetchOne
+//
+func QueryOne(db *sql.DB, sql string) (bool, map[string]interface{}, error) {
+
+	rows, err := db.Query(sql)
+	if err != nil {
+		return false, nil, err
+	}
+
+	ok, rowMap, err := FetchOne(rows)
+	if err != nil {
+		return false, nil, err
+	}
+
+	return ok, rowMap, nil
+}
+
+// QueryAll
+//
+// Database query function on top on FetchOne
+//
+func QueryAll(db *sql.DB, sql string) ([]map[string]interface{}, error) {
+
+	rows, err := db.Query(sql)
+	if err != nil {
+		return nil, err
+	}
+
+	rowsMap, err := FetchAll(rows)
+	if err != nil {
+		return nil, err
+	}
+
+	return rowsMap, nil
+}
+
 // FetchOne
 //
 // Fetches one row into a map[string]interface{}, each key is the column name
