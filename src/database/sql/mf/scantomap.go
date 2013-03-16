@@ -17,7 +17,7 @@ import (
 
 // QueryOne
 //
-// Database query function on top on FetchOne
+// Database query function on top of FetchOne
 //
 func QueryOne(db *sql.DB, sql string) (bool, map[string]interface{}, error) {
 
@@ -36,7 +36,7 @@ func QueryOne(db *sql.DB, sql string) (bool, map[string]interface{}, error) {
 
 // QueryAll
 //
-// Database query function on top on FetchOne
+// Database query function on top of FetchAll
 //
 func QueryAll(db *sql.DB, sql string) ([]map[string]interface{}, error) {
 
