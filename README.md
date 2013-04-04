@@ -2,12 +2,12 @@
 Fetches results from SQL rows into a map - Go language
 
 ##Status
-Completed YES
-
-Tested YES
+Completed & Tested : v 1.0
 
 ## Install
+```
 go get github.com/sigu-399/gosqlmf
+```
 
 ##Usage
 
