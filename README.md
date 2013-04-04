@@ -17,7 +17,7 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
 ### Fetching one row
 ```
   import(
-  	"database/sql/mf"
+  	"github.com/sigu-399/gosqlmf"
   )
 
   // Classic database connection and query 
