@@ -23,7 +23,7 @@
 // 
 // created      	21-02-2013
 
-package mf
+package gosqlmf
 
 import (
 	"database/sql"
