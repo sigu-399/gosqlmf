@@ -6,6 +6,9 @@ Completed YES
 
 Tested YES
 
+## Install
+go get github.com/sigu-399/gosqlmf
+
 ##Usage
 
 Update :
