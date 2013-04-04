@@ -1,7 +1,7 @@
 PACKAGE
 
 package mf
-    import "database/sql/mf"
+    import "github.com/sigu-399/gosqlmf"
 
 
 FUNCTIONS
