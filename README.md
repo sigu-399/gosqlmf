@@ -25,7 +25,7 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
   database, err := sql.Open(`postgres`, `user=foo dbname=bar password=secret`)
   defer database.close()
 
-  ok, row, err := return mf.QueryOne(database, "SELECT * FROM person WHERE id = '5')
+  ok, row, err := return mf.QueryOne(database, "SELECT * FROM person WHERE id = '5'")
 }
 ```
 
