@@ -29,6 +29,20 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
 }
 ```
 
+```
+  import(
+  	"github.com/sigu-399/gosqlmf"
+  )
+
+  // Classic database connection and query 
+
+  database, err := sql.Open(`postgres`, `user=foo dbname=bar password=secret`)
+  defer database.close()
+
+  rows, err := return mf.QueryAll(database, "SELECT * FROM person")
+}
+```
+
 ### Fetching one row
 ```
   import(
