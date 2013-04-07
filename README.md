@@ -15,7 +15,19 @@ Update :
 
 Alternatively, you may use the wrapper functions QueryOne & QueryAll, making things easier and your code smaller.
 
-( see doc file for more informations on these functions )
+```
+  import(
+  	"github.com/sigu-399/gosqlmf"
+  )
+
+  // Classic database connection and query 
+
+  database, err := sql.Open(`postgres`, `user=foo dbname=bar password=secret`)
+  defer database.close()
+
+  ok, row, err := return mf.QueryOne(database, "SELECT * FROM person WHERE id = '5')
+}
+```
 
 ### Fetching one row
 ```
