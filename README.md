@@ -11,9 +11,7 @@ go get github.com/sigu-399/gosqlmf
 
 ##Usage
 
-Update :
-
-Alternatively, you may use the wrapper functions QueryOne & QueryAll, making things easier and your code smaller.
+### Fetching one row
 
 ```
   import(
@@ -29,6 +27,8 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
 }
 ```
 
+### Fetching alls rows
+
 ```
   import(
   	"github.com/sigu-399/gosqlmf"
@@ -43,7 +43,8 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
 }
 ```
 
-### Fetching one row
+### Fetching one row ( alternative )
+
 ```
   import(
   	"github.com/sigu-399/gosqlmf"
@@ -73,7 +74,7 @@ Alternatively, you may use the wrapper functions QueryOne & QueryAll, making thi
   }
 ```
 
-### Fetching all rows
+### Fetching all rows ( alternative ) 
 ```
   // Classic database connection and query 
 
